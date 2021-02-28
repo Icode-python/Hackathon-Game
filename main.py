@@ -73,7 +73,7 @@ class Game:
         self.mouse = Mouse(pygame.mouse.get_pos(), self)
         self.saveMenu = saveMenu(self)
         self.battle = BattleSystem(self)
-        self.saveMenu.load_save()
+        #self.saveMenu.load_save()
         self.mainthemestart.play()
         self.mainTheme.play(-1)
     
